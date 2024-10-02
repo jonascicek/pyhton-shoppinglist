@@ -8,5 +8,3 @@ def add_item():
     item = input("Welche Artikel sollen auf die Einkaufsliste hinzugefügt werden: ")
     shoppinglist.append(item)
     print(f"{item} wurde der Einkaufsliste hinzugefügt.")
-
-add_item()
