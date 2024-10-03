@@ -39,4 +39,8 @@ def main():
             break
         else:
             print("Ungültige Auswahl. Bitte wähle 1, 2 oder 3")
-main()
+
+# Wenn erst das Script gestartet wird soll das Hauptprogramm ausgeführt werden.
+
+if __name__ == "__main__":
+    main()
