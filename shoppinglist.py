@@ -3,6 +3,7 @@
 # Leere Einkaufsliste
 shoppinglist = []
 
+
 # Funktion zum hinzufügen eines Artikels
 def add_item():
     item = input("Welche Artikel sollen auf die Einkaufsliste hinzugefügt werden: ")
@@ -40,3 +41,4 @@ def main():
         else:
             print("Ungültige Auswahl. Bitte wähle 1, 2 oder 3")
 main()
+
